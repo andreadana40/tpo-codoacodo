@@ -2,12 +2,15 @@ html{
     font-size: 62,5%;/*para establecer rem hay que colocar en html 62.5 qu e equibale a 1 rem *1rem= 10px*/
     /*padding: 0;*/
     /* margin: 0 ;*/
+    font-family:'Bungee Spice', cursive;
+    
 }
     body{
     background: linear-gradient(90deg, rgb(236, 17, 192), blue);
 }
 h1, h2{
     color: white;
+
 }
 .grid-container{
     
@@ -19,10 +22,15 @@ h1, h2{
     /*gap: 1rem;/*gap: 1rem;gap espCIADO*/
     column-gap: 1rem;/*espaciado entre columnas*/
     row-gap: 1rem;/*espaciado entre filas*/
-
-
+    font-family:'Bungee Spice', cursive; 
+}
+@font-face {
+    font-family:'Bungee Spice';
+    src: url(BungeeSpice-Regular.ttf);
 }
 .grid-item{
     background-color: rgb(151, 64, 232);
     border: 1px solid rgb(126, 81, 81);
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px rgba(64, 61, 61, 0.71);
 }
