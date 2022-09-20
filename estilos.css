@@ -18,13 +18,15 @@ h1, h2{
     /*background-color: rgb(114, 59, 172);*/
     background: linear-gradient(90deg, rgb(236, 17, 192), blue(34, 0, 255));
     display: grid;
-    grid-template-columns: repeat(4, 10rem);/*en fraccion repeat 4 columnas de 1 fraccion(4, 1fr) /*10rem 10rem 10rem; /*la cantidad equibale a las columnas esas son 3 columnas las divide en columnas hay ahi 3 clumnas otra forma 100px 100px 100px; tambie shooket :repeat (4, 10rem*)*/
-    grid-template-rows: repeat(3, 10rem); /*en fraccion repeat(3, 1fr) /*10rem 10rem 10rem;  /*otra forma*100px 100px 100px;*/
+    justify-content: space-evenly;
+    grid-template-columns: repeat(4, 15rem);/*en fraccion repeat 4 columnas de 1 fraccion(4, 1fr) /*10rem 10rem 10rem; /*la cantidad equibale a las columnas esas son 3 columnas las divide en columnas hay ahi 3 clumnas otra forma 100px 100px 100px; tambie shooket :repeat (4, 10rem*)*/
+    grid-template-rows: repeat(3, 15rem); /*en fraccion repeat(3, 1fr) /*10rem 10rem 10rem;  /*otra forma*100px 100px 100px;*/
     /*gap: 1rem;/*gap: 1rem;gap espCIADO*/
     column-gap: 1rem;/*espaciado entre columnas*/
     row-gap: 1rem;/*espaciado entre filas*/
     font-family:'Bungee Spice', cursive;
     text-align: center; 
+    
 }
 @font-face {
     font-family:'Bungee Spice';
@@ -35,4 +37,5 @@ h1, h2{
     border: 1px solid rgb(126, 81, 81);
     border-radius: 5px;
     box-shadow: 10px 10px 5px rgba(64, 61, 61, 0.71);
+    text-align: center;
 }
