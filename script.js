@@ -1,3 +1,3 @@
-alert ("HOLAmUNDO");
-let nombreApellido = "Andrea Blois";
+alert ("HOLAMUNDO");
+let nombreApellido = "Andrea Liliana";
 console.log(nombreApellido);
